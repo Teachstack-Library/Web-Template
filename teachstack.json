@@ -17,7 +17,7 @@
           "scripts": [
             {
               "language": "browser",
-              "script": "index.html"
+              "file": "index.html"
             }
           ]
         },
@@ -29,7 +29,7 @@
           "scripts": [
             {
               "language": "browser",
-              "script": "index.html"
+              "file": "index.html"
             }
           ]
         }
@@ -37,3 +37,4 @@
     }
   ]
 }
+
