@@ -14,27 +14,28 @@
           "dir": "sandbox",
           "initialFiles": ["index.html", "index.js"],
           "tests": [],
-          "scripts": [
-            {
-              "language": "browser",
-              "file": "index.html"
-            }
-          ]
+          "scripts": [],
+          "servers": [],
+          "browser": {
+            "type": "file",
+            "file": "index.html",
+            "port": 3000
+          }
         },
         {
           "name": "Sandbox 2",
           "dir": "sandbox_2",
           "initialFiles": ["index.html", "index.js"],
           "tests": [],
-          "scripts": [
-            {
-              "language": "browser",
-              "file": "index.html"
-            }
-          ]
+          "scripts": [],
+          "servers": [],
+          "browser": {
+            "type": "file",
+            "file": "index.html",
+            "port": 3000
+          }
         }
       ]
     }
   ]
 }
-
